@@ -1,0 +1,23 @@
+name: 'Build and deploy to GitHub Pages'
+on:
+  push:
+    branches:
+      - master
+jobs:
+  ci-cd-as-github-pages:
+    name: 'Build and deploy to GitHub Pages'
+    runs-on: ubuntu-22.04
+    steps:
+      - name: 'Checkout code'
+        uses: actions/checkout@v3
+      - name: 'Build Markdown files'
+        uses: rakovets/markdown-convert-action@master
+        with:
+          command:
+            'find . -name "*.md" | while read i; do pandoc -f markdown -t html5 "$i" -o "${i%.*}.html" -c "style.css"; done'
+      - name: 'Deploy docs to GitHub Pages'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./
