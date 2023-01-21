@@ -14,6 +14,7 @@
 
 ## Community resources
 
+* [Awesome Go](https://github.com/avelino/awesome-go) is a curated list of awesome Go frameworks, libraries and software.
 * [Awesome Go Books](https://github.com/dariubs/GoBooks) is a huge number of books for Go development with a brief description.
 * [Go by Example](https://github.com/mmcgrana/gobyexample) is a hands-on introduction to Go using annotated example programs.
 * [Standard Go Project Layout](https://github.com/golang-standards/project-layout) - a basic layout for Go application projects.
