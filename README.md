@@ -17,3 +17,11 @@
 * [Awesome Go Books](https://github.com/dariubs/GoBooks) is a huge number of books for Go development with a brief description.
 * [Go by Example](https://github.com/mmcgrana/gobyexample) is a hands-on introduction to Go using annotated example programs.
 * [Standard Go Project Layout](https://github.com/golang-standards/project-layout) - a basic layout for Go application projects.
+
+## YouTube Channels
+
+* [The Go Programming Language](https://www.youtube.com/@golang) - Official YouTube channel.
+* [Golang Dojo](https://www.youtube.com/@GolangDojo) - Golang Golang Golang! | Go Programming.
+* [GopherCon UK](https://www.youtube.com/@GopherConUK) - Recordings of sessions at our annual GopherCon UK Conference events.
+* [Golang Cafe](https://www.youtube.com/@GolangCafe) - Golang Cafe is the first Go Job Board with no recruiters and clear salary ranges and a community where you can learn the Go programming language.
+* [GoLang Beginners](https://www.youtube.com/@GoLangBeginners) - programming tutorials for beginner in Go Programming.
