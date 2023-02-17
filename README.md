@@ -1,4 +1,4 @@
-<link href="./asciidoctor.css" rel="stylesheet">
+<link href="./style.css" rel="stylesheet">
 
 # learn-go
 
