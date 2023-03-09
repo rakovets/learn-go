@@ -36,3 +36,4 @@
 |   `pg`    | A pure Go postgres driver for Go's database/sql package | `github.com/lib/pq`                    | https://github.com/lib/pq                 |
 |  `yaml`   | YAML support for the Go language                        | `gopkg.in/yaml.v3`                     | https://github.com/go-yaml/yaml           |
 | `migrate` | Database migrations written in Go                       | `github.com/golang-migrate/migrate/v4` | https://github.com/golang-migrate/migrate |
+|  `uuid`   | The uuid package generates and inspects UUIDs           | `github.com/google/uuid`               | https://github.com/google/uuid            |
